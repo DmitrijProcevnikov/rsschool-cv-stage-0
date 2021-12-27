@@ -5,4 +5,4 @@
 * __Email:__ dmitrijprocevnikov@gmail.com
 * __GitHub:__ DmitrijProcevnikov
 ## __About Me__
-I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
+I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills!
