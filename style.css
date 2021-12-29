@@ -1,1 +1,31 @@
-.
+html{
+    background-color: rgb(150, 196, 182);
+    margin: 25px;
+}
+
+.nav-list{
+display: flex;
+list-style-type: none;
+background-color: rgb(184, 205, 228);
+}
+
+.nav-item{
+margin:20px;
+}
+.nav-item1{
+    margin:10px 105px 10px 15px;
+    }
+.nav-item2{
+    margin:10px 15px 10px 105px;
+    }
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
+.fatty{
+    font-weight: bold;
+    }
