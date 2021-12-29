@@ -1,12 +1,12 @@
 html{
-    background-color: rgb(69, 192, 155);
+    background-color: rgb(150, 196, 182);
     margin: 25px;
 }
 
 .nav-list{
 display: flex;
 list-style-type: none;
-background-color: rgb(218, 231, 98);
+background-color: rgb(184, 205, 228);
 }
 
 .nav-item{
@@ -26,3 +26,6 @@ margin:20px;
     content: "";
     display: table;
     clear: both;}
+.fatty{
+    font-weight: bold;
+    }
