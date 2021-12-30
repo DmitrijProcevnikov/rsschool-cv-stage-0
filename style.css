@@ -13,10 +13,16 @@ background-color: rgb(184, 205, 228);
 margin:20px;
 }
 .nav-item1{
-    margin:10px 105px 10px 15px;
+    margin:10px 110px 10px 10px;
     }
 .nav-item2{
-    margin:10px 15px 10px 105px;
+    margin:10px 110px 10px 60px;
+}
+.nav-item3{
+    margin:10px 110px 10px 60px;
+}
+.nav-item4{
+    margin:10px 10px 10px 60px;
     }
 .column {
     float: left;
