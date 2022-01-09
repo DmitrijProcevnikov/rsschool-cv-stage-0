@@ -7,23 +7,36 @@ body{
     width: 1440px;
     margin: 0;
 }
-h1, h2{
+h1{
 font-family: 'Merriweather', serif;
 font-style: normal;
 font-weight: 700;
 font-size: 60px;
 line-height: 120px;
 }
-h3{
-    font-family: 'Inter', sans-serif;
+h2{
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 80px;
+color: #BDAE82;
 }
-p, li{
+h3{
     font-family: Inter;
 font-style: normal;
-font-weight: normal;
+font-weight: bold;
 font-size: 20px;
 line-height: 40px;
 color: #ffffff;
+}
+p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
 }
 .header{
     display: flex;
@@ -148,4 +161,109 @@ font-weight: normal;
 font-size: 20px;
 line-height: 40px;
 text-align: center;
+}
+.section-title{
+    display: flex;
+    width: 700px;
+    height: 80px;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    background: url('./assets/img/section-title-line.png');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+}
+.skills{
+    display: flex;
+    width: 152px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.section-skills{
+    display: flex;
+    width: 1440px;
+    height: 257px;
+    margin-top: 60px;
+}
+.skills0{
+    display: flex;
+    width: 360px;
+    height: 257px;
+    flex-direction: column;
+    align-items: center;
+}
+.skills1-0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 50px;
+
+}
+.skills1-1{
+    width: 60px;
+    height: 50px;
+    
+}
+.skills1-2{
+    width: 66px;
+    height: 50px;
+  
+}
+.skills1-3{
+    display: flex;
+    width: 32px;
+    height: 50px;
+    justify-content: center;
+}
+.skills11{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    padding-left: 18px;
+    padding-top: 3px;
+
+}
+.skills13{
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    margin-top: -46px;
+    margin-left: 21px;
+
+}
+.skills14{
+    position: absolute;
+    margin-top: 25px;
+}
+.skills{
+    position: absolute;
+
+}
+.skills2{
+    display: flex;
+    width: 280px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.skills3{
+    display: flex;
+    width: 280px;
+    height: 72px;
+    margin-top: 20px;
+    
+}
+.s3{
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
 }
