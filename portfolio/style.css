@@ -89,11 +89,9 @@ font-size: 20px;
 line-height: 50px;
 background-color: Transparent;
 border: none;
+ color: #BDAE82; 
      }
-     #em{
-    color: #BDAE82; 
-     }
-     .slash{
+    .slash{
         display: flex;
         width: 8px;
         height: 90px;
@@ -169,18 +167,13 @@ color: #FFFFFF;
     margin-left: 80px;
     padding: 0;
     background-color: #BDAE82;
-}
-.rectangle{
-    width: 75px;
-    height: 40px;
-    margin: 8px 72px 7px 73px;
-    font-family: Inter;
-font-style: normal;
+    font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 40px;
 text-align: center;
 }
+
 .section-title{
     display: flex;
     width: 700px;
@@ -329,7 +322,7 @@ border-radius: 0px;
     justify-content: center;
     align-items: center;
 }
-.portfolio4{
+#portfolio4{
     font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -337,7 +330,7 @@ font-size: 20px;
 line-height: 40px;
 color: #BDAE82;
 }
-.portfolio5{
+#portfolio5{
     font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -478,19 +471,14 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
     background-color: #BDAE82;;
-}
-.price6{
-    display: flex;
-    width: 142px;
-    height: 40px;
-    font-family: Inter;
-font-style: normal;
+    font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 40px;
 text-align: center;
 color: #000000;
 }
+
 #contacts{
     width: 1440px;
     height: 700px;
@@ -508,6 +496,10 @@ color: #000000;
     border: none;
     cursor:pointer;
     overflow: hidden; 
+}
+#contacts2{
+    margin-left: 970px;
+    padding-top: 28px;
 }
 #email{
     width: 345px;
